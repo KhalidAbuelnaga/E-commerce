@@ -1,0 +1,496 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-nav {
+    font-size: 12px;
+}
+
+.search .icon {
+    position: absolute;
+    right: 5%;
+    padding-left: 1%;
+    border-left: solid 1px;
+    border-color: #ccc;
+    cursor: pointer;
+}
+
+.first-nav .container a {
+    font-size: 12px;
+    color: rgb(63.9, 63.1, 63.1);
+}
+
+.logo {
+    font-family: 'Alex Brush', cursive;
+}
+
+a.logo {
+    font-size: 45px;
+}
+
+.second-nav {
+    font-size: 15px;
+    background-color: rgb(2.4, 0.0, 0.4);
+    z-index: 999999;
+}
+
+.banner i {
+    font-size: 2rem;
+    color: black;
+}
+
+.fa-circle-left {
+    position: absolute;
+    left: 5%;
+    z-index: 99;
+}
+
+.fa-circle-right {
+    position: absolute;
+    right: 5%;
+    z-index: 99;
+}
+
+.collection1 {
+    color: rgba(230, 128, 224, 255)!important;
+    letter-spacing: 4px;
+}
+
+.mainColor {
+    color: rgba(230, 128, 224, 255)!important;
+}
+
+.bg-mainColor {
+    background-color: rgba(230, 128, 224, 255);
+}
+
+.form-check-input {
+    accent-color: rgba(230, 128, 224, 255) !important;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    background-color: black;
+}
+
+.card-img-overlay:hover {
+    transition-duration: 1s;
+    opacity: 0.7;
+}
+
+.signBtn {
+    background-color: rgb(255, 0, 128);
+}
+
+.price {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: medium;
+}
+
+.footer {
+    background-color: rgb(42, 42, 44);
+    font-size: small;
+}
+
+.text-footer {
+    text-decoration: none;
+    color: #ccc;
+    opacity: .5;
+}
+
+.footer td {
+    padding: 4px 8px;
+}
+
+.footer input {
+    border-color: #ccc;
+}
+
+.footer button {
+    background-color: rgba(230, 128, 224, 255);
+}
+
+.welcome .text::before {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 41%;
+    padding: 1px;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 4px;
+}
+
+.welcome .text::after {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 41%;
+    padding: 1px;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 4px;
+}
+
+.feedback .image img {
+    height: 60vh;
+}
+
+.welcome .title::before {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 43%;
+    padding: 1px;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 4px;
+}
+
+.welcome .title::after {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 43%;
+    padding: 1px;
+    position: absolute;
+    bottom: 0.7rem;
+    right: 4px;
+}
+
+.icons i {
+    font-size: 25px;
+    background-color: transparent;
+    color: #ccc;
+}
+
+.offer .image {
+    height: fit-content;
+}
+
+.show-product .title {
+    border-bottom: solid 2px;
+    border-color: #ccc;
+}
+
+.quantity span {
+    padding: 1rem 12rem 1rem .7rem;
+}
+
+.addCart .wishlist {
+    font-size: 15px;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.wishlist:hover i {
+    color: red;
+}
+
+.cart-icon:hover i {
+    color: rgba(255, 0, 240, 255);
+}
+
+.share-icon:hover i {
+    color: blue;
+}
+
+.wishlist {
+    cursor: pointer;
+}
+
+.cart-icon {
+    cursor: pointer;
+}
+
+.share-icon {
+    cursor: pointer;
+}
+
+.all-products .active {
+    color: black !important;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.all-products .title::before {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 39%;
+    padding: 1px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #827d7d !important;
+}
+
+.summary .card-title {
+    background-color: rgb(234, 234, 234);
+}
+
+.full-input label {
+    font-size: 12px;
+}
+
+.full-input input {
+    height: 1.5rem;
+    width: 80%;
+}
+
+.decrement-btn {
+    width: 3rem !important;
+}
+
+.increment-btn {
+    width: 3rem !important;
+}
+
+.active>.page-link,
+.page-link.active {
+    background-color: rgba(230, 128, 224, 255);
+    border-color: rgba(230, 128, 224, 255);
+}
+
+.ui-menu {
+    z-index: 9999999999999;
+}
+
+.page-link {
+    color: black;
+}
+
+.all-products .title::after {
+    content: "";
+    border-style: solid;
+    border-color: #ccc;
+    width: 39%;
+    padding: 1px;
+    position: absolute;
+    bottom: 1.2rem;
+    right: 0;
+}
+
+.all-products .item {
+    width: 14rem;
+}
+
+.active {
+    color: rgba(230, 128, 224, 255) !important;
+}
+
+.navbar .active {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.categories {
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+@media screen and (max-width:1200px) {
+    .welcome .text::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 36.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 4px;
+    }
+    .welcome .text::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 36.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        right: 4px;
+    }
+    .welcome .title::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 38.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 4px;
+    }
+    .welcome .title::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 38.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        right: 4px;
+    }
+    .all-products .welcome .title::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 36.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        right: 4px;
+    }
+    .all-products .welcome .title::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 36.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        left: 4px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .welcome .text::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 33%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 4px;
+    }
+    .welcome .text::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 33%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        right: 4px;
+    }
+    .all-products .welcome .title::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 31.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        right: 4px;
+    }
+    .all-products .welcome .title::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 31.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        left: 4px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .item {
+        width: 50% !important;
+    }
+    .mainScreen {
+        flex-direction: column-reverse !important;
+    }
+    .Hot {
+        margin-top: 1.5rem;
+    }
+    .welcome .text::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 31%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 4px;
+    }
+    .welcome .text::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 31%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        right: 4px;
+    }
+    .welcome .title::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 33%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        left: 4px;
+    }
+    .welcome .title::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 33%;
+        padding: 1px;
+        position: absolute;
+        bottom: 0.7rem;
+        right: 4px;
+    }
+    .show-product .col-md-3 {
+        width: 22rem;
+        margin: auto;
+    }
+    .show-product .col-md-6 {
+        margin: auto;
+        width: 100% !important;
+    }
+    .all-products .list-group {
+        width: 75%;
+        margin: auto;
+    }
+    .all-products .row {
+        flex-direction: column-reverse;
+    }
+    .all-products .row .row {
+        flex-direction: column;
+    }
+    .all-products .welcome .title::after {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 26.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        right: 4px;
+    }
+    .all-products .welcome .title::before {
+        content: "";
+        border-style: solid;
+        border-color: #ccc;
+        width: 26.5%;
+        padding: 1px;
+        position: absolute;
+        bottom: 1rem;
+        left: 4px;
+    }
+}
